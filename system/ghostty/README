@@ -6,3 +6,13 @@ emulator that uses platform-native UI and GPU acceleration.
 
 Homepage: https://ghostty.org/
 Documentation: https://ghostty.org/docs
+
+Note:
+
+The build process fetch dependencies from the internet. To proper do an offline build,
+the dependencies need to be download first and make available in a location the SlackBuild
+can access.
+
+Ghostty provide a script to do this and at the moment I'm looking into the best
+way to integrate it with the SlackBuild.
+
