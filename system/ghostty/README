@@ -9,6 +9,8 @@ Documentation: https://ghostty.org/docs
 
 Note:
 
+Zig 0.13.0 is required for 1.1.x series.
+
 The build process fetch dependencies from the internet. To proper do an offline build,
 the dependencies need to be download first and make available in a location the SlackBuild
 can access.
