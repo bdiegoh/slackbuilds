@@ -9,12 +9,20 @@ Documentation: https://ghostty.org/docs
 
 Note:
 
-Zig 0.13.0 is required for 1.1.x series.
+At the moment ghostty is only supported for Slackware current, mainly because
+of dependencies.
+
+Zig 0.14.1 is required for 1.2.x series. To use this SlackBuild be sure to have
+the zig 0.14.1 binary in your PATH variable.
+
+gtk4-layer-shell is required for Ghostty 1.2.x. A SlackBuild based on the
+gtk-layer-shell can be found in libraries/gtk4-layer-shell in this repo.
+
 
 The build process fetch dependencies from the internet. To proper do an offline build,
 the dependencies need to be download first and make available in a location the SlackBuild
 can access.
 
 Ghostty provide a script to do this and at the moment I'm looking into the best
-way to integrate it with the SlackBuild.
+way to integrate it with the SlackBuild. Not a priority until Ghostty is out of current.
 
