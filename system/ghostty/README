@@ -18,11 +18,10 @@ the zig 0.14.1 binary in your PATH variable.
 gtk4-layer-shell is required for Ghostty 1.2.x. A SlackBuild based on the
 gtk-layer-shell can be found in libraries/gtk4-layer-shell in this repo.
 
+Note:
 
-The build process fetch dependencies from the internet. To proper do an offline build,
-the dependencies need to be download first and make available in a location the SlackBuild
-can access.
-
-Ghostty provide a script to do this and at the moment I'm looking into the best
-way to integrate it with the SlackBuild. Not a priority until Ghostty is out of current.
+Update build script to use fetch-zig-cache.sh and set DESTDIR to avoid resource
+linked to the tmp folder.
+Disable doc generation as pandoc has a lot of dependencies, will enable
+in the future.
 
