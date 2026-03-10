@@ -12,10 +12,10 @@ Note:
 At the moment ghostty is only supported for Slackware current, mainly because
 of dependencies.
 
-Zig 0.14.1 is required for 1.2.x series. To use this SlackBuild be sure to have
-the zig 0.14.1 binary in your PATH variable.
+Zig 0.15.2 is required for 1.3.x series. To use this SlackBuild be sure to have
+the zig 0.15.2 binary in your PATH variable.
 
-gtk4-layer-shell is required for Ghostty 1.2.x. A SlackBuild based on the
+gtk4-layer-shell is required for Ghostty 1.3.x. A SlackBuild based on the
 gtk-layer-shell can be found in libraries/gtk4-layer-shell in this repo.
 
 Note:
@@ -24,4 +24,7 @@ Update build script to use fetch-zig-cache.sh and set DESTDIR to avoid resource
 linked to the tmp folder.
 Disable doc generation as pandoc has a lot of dependencies, will enable
 in the future.
+
+For full details about all the changes and features check:
+  https://ghostty.org/docs/install/release-notes/1-3-0
 
